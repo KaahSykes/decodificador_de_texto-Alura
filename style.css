@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+    --cor_principal: #0A3871;
+    --cor_secundaria: #FFFFFF;
+    --cor_terciaria: #E5E5E5;
+    --cor_quaternaria: #343A40;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: var(--cor_terciaria);
+    font-family: "Inter", sans-serif;;
+}
+
+body {
+    background-color: var(--cor_terciaria);
+}
+
+.logoAlura {
+    padding-left: 15px;
+    padding-top: 30px;
+}
+
+.conteiner {
+    display: flex;
+    height: 100vh;
+}
+
+.conteiner__secaoPrincipal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25rem;
+    padding: 5% 10% 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conteiner__secaoPrincipal__text-area {
+    border: none;
+    color: var(--cor_principal);
+    font-weight: 600;
+    font-size: 32px;
+}
+
+::placeholder {color: var(--cor_principal);}
+    .conteiner__secaoPrincipal__text-area:focus {
+        outline: none;
+    }
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+    text-align: center;
+    border-radius: 100px;
+}
+
+.botoes__aviso {
+    display: flex;
+    font-size: 12px;
+}
+
+.botoes__botoes {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.botoes__criptografar {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 60%;
+    text-align: center;
+    border-radius: 24px;
+    font-size: 16px;
+    justify-content: center;
+    padding: 1.34rem 0;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    border: none;
+    background-color: var(--cor_principal);
+    color: var(--cor_terciaria);
+    text-decoration: none;
+}
+
+.botoes__criptografar:hover {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 60%;
+    text-align: center;
+    border-radius: 24px;
+    font-size: 18px;
+    justify-content: center;
+    padding: 1.34rem 0;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    border: none;
+    background-color: var(--cor_principal);
+    color: var(--cor_terciaria);
+    text-decoration: none;
+}
+
+.botoes__descriptografar {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 60%;
+    text-align: center;
+    border-radius: 24px;
+    font-size: 16px;
+    justify-content: center;
+    padding: 1.34rem 0;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    border: none;
+    background-color: var(--cor_secundaria);
+    color: var(--cor_principal);
+    text-decoration: none;
+}
+
+.botoes__descriptografar:hover {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 60%;
+    text-align: center;
+    border-radius: 24px;
+    font-size: 18px;
+    justify-content: center;
+    padding: 1.34rem 0;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    border: none;
+    background-color: var(--cor_secundaria);
+    color: var(--cor_principal);
+    text-decoration: none;
+}
+
+.conteiner__secaoSecundaria {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: var(--cor_secundaria);
+    border: solid var(--cor_secundaria);
+    text-align: center;
+    justify-items: center;
+    border-radius: 32px;
+    margin: 5% 5% 3% 5%;
+}
+
+.conteiner__secaoSecundaria__resposta:disabled {
+    font-size: 24px;
+    color: var(--cor_quaternaria);
+    background-image: url(./Assets/personagem-lupa.png);
+    background-repeat: no-repeat;
+    background-color: var(--cor_terciaria);
+    background-position: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    padding: 40px;
+    border: none;
+    border-radius: 32px;
+    height: 775px;
+    width: 1,94px;
+}
+
+.conteiner__secaoSecundaria__resposta {
+    font-size: 24px;
+    color: var(--cor_quaternaria);
+    background-color: var(--cor_secundaria);
+    background-position: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    padding: 40px;
+    border: none;
+    border-radius: 32px;
+    height: 90%;
+    width: 1,94px;
+}
+
+.conteiner__secaoSecundaria__resposta:focus {
+    outline: none;
+}
+
+.conteiner__secaoSecundaria__resposta::placeholder {
+    font-size: 24px;
+    color: var(--cor_quaternaria);
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+
